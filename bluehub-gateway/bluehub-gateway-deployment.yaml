@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bluehub-gateway-deployment
+  labels:
+    app: bluehub-gateway
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bluehub-gateway
+  template:
+    metadata:
+      labels:
+        app: bluehub-gateway
+    spec:
+      containers:
+        - name: bluehub-gateway
+          image: "10.104.79.130:10002/bluehub/gateway:v3"

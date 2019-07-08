@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bluehub-router-service
+spec:
+  selector:
+    app: bluehub-router
+  ports:
+  - protocol: TCP
+    port: 10001
+    targetPort: 10001

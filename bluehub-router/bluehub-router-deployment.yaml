@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bluehub-router-deployment
+  labels:
+    app: bluehub-router
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bluehub-router
+  template:
+    metadata:
+      labels:
+        app: bluehub-router
+    spec:
+      containers:
+        - name: bluehub-router
+          image: "10.104.79.130:10002/bluehub/router:v2"
