@@ -58,6 +58,12 @@ docker-imageを保存するregistryをpodとして用意し、
 
 # ビルド
 
+以下のシェルスクリプトで環境ができます。
+
+```
+$ sh apply.sh
+```
+
 ### ・deploymentの適応
 
 ```
