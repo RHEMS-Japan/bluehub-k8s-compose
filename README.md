@@ -145,5 +145,8 @@ http://192.168.99.101:30005/v1/example/sayhello/hirasawa
 
 # 引用
 
-gRPC部分はほとんど他人様のコードです。
+gRPC部分はほとんど他人様のコードです。    
 [https://qiita.com/ryu3/items/b2882d4f45c7f8485030#3grpc-stub-%E3%82%92%E7%94%9F%E6%88%90%E3%81%99%E3%82%8B](https://qiita.com/ryu3/items/b2882d4f45c7f8485030#3grpc-stub-%E3%82%92%E7%94%9F%E6%88%90%E3%81%99%E3%82%8B)
+
+パッケージはこちら    
+[https://github.com/grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway)
