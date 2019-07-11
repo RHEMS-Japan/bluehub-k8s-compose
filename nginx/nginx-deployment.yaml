@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: "10.104.79.130:10002/bluehub/nginx:v3"
+        image: "10.98.43.129:10002/bluehub/nginx:v3"
