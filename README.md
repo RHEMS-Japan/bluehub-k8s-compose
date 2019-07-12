@@ -149,6 +149,14 @@ http://192.168.99.101:30005/v1/example/sayhello/hirasawa
 
 とレスポンスが返ってくる。
 
+# remote registry usage
+```
+The flow for registry-creds is:
+minikube addons configure registry-creds creates the initial secret
+minikube addons enable registry-creds runs the registry creds addon
+can you verify that you also enabled the addon with minikube addons enable registry creds
+```
+
 # 引用
 
 gRPC部分はほとんど他人様のコードです。    
