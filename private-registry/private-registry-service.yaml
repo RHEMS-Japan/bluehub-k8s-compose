@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: private-registry-service
 spec:
+  clusterIP: 10.98.43.129 
   type: NodePort
   selector:
     app: private-registry
